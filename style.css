@@ -49,6 +49,9 @@ h1{
     font-weight: 700;
     color: hsl(212, 21%, 14%)
 }
+ #image{
+    width: 50px;
+}
 
 p{
     font-family: 'montserrat', sans-serif;

@@ -1,46 +1,118 @@
-h4{
-    font-weight: lighter ;
-    text-transform: uppercase;
-    color:Grey hsl(228, 12%, 48%) ; 
-     font-family: 'Fraunces', serif;
-}
 
 body{
-    background-color: aliceblue;
+    background-color: hsl(31, 60%, 91%);
     display: flex;
     align-items: center;
-    justify
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 
 }
-.perfume{
-    background-color: white;
 
 
+.biggest-container{
+    display: flex;
+    border-radius: 70px;
+    overflow: hidden;
+    box-shadow: 0px 20px 30px hsl(228, 12%, 48%);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width:80vh;
+    background-color: hsl(30, 38%, 92%)
+}
 
+.image-container{
+    object-fit: cover;
+}
+
+ .perfume{
+    background-color: hsl(0, 0%, 100%);
+}
+h4 {
+        font-family: 'montserrat',sans-serif;
+        font-size: 22px;      
+        font-weight: 500;    
+        color:hsl(228, 12%, 48%);           
+        margin:0 0 30px 0;        
+        text-transform: uppercase; 
+        letter-spacing: 2px;    
+    }
+h1{
+    font-family: 'fraunces';
+    font-size: 70px;
+    padding: 0 ;
+    line-height:65px;
+    margin:0 150px 0 0;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%)
 }
  #image{
     width: 50px;
 }
 
+p{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding:0 170px 0 0;
+    line-height: 35px;
+    color:hsl(228, 12%, 48%)
+}
 
 .price-container {
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 30px;
         }
+
      .current-price {
             font-family: 'Fraunces', serif;
-            font-size: 2rem;
+            font-size: 4rem;
             font-weight: 700;
             color: hsl(158, 36%, 37%);
+            
         }
-            .original-price {
+    .original-price {
             color: hsl(228, 12%, 48%);
             text-decoration: line-through;
-            font-size: 0.8rem;
+            font-size: 2rem;
+            font-weight: 400;
+            font-family: 'montserrat';
         }
 
 button{
-    background-color:Green hsl(158, 42%, 18%) ;
-} */
+    background-color:hsl(158, 42%, 28%);
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 20px 0;
+    width: 70%;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'montserrat';
+    display: flex;
+    
+
+} 
+
+button:hover {
+        background-color: hsl(158, 42%, 18%)
+}
+button:active{
+    background-color:aquamarine
+}
+svg{
+    margin-right: 10px;
+   
+}

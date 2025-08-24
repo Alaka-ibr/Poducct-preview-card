@@ -15,6 +15,9 @@
         width: 100%;
         max-width: 375px;
     }
+    .biggest-container {
+        flex-direction: column;
+    }
     /* Add more responsive styles as needed */
 }
 

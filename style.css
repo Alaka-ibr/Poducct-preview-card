@@ -1,11 +1,12 @@
 
+
 @media screen and (min-width: 1440px) {
 body{
     background-color: hsl(31, 60%, 91%);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin: auto;
     height: 100vh;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -13,106 +14,130 @@ body{
 }
 
 
-.biggest-container{
+.biggest-container {
     display: flex;
-    border-radius: 70px;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0px 20px 30px hsl(228, 12%, 48%);
-    gap: 40px;
+    /* box-shadow: 0px 20px 30px hsl(228, 12%, 48%); */
+    /* gap: 40px; */
     justify-content: center;
     align-items: center;
-    width:80vh;
-    background-color: hsl(30, 38%, 92%)
+    /* height:80vh;*/
+    height: 80vh;
+    width: 900px;
+    background-color: white;
 }
 
-.image-container{
-    object-fit: cover;
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 50%;
 }
 
- .perfume{
-    background-color: hsl(0, 0%, 100%);
+.perfume-image {
+
+    height: inherit;
+    /* height: 50vh; */
+
 }
+
+.perfume {
+    width: 50%;
+    padding: 40px;
+}
+
 h4 {
-        font-family: 'montserrat',sans-serif;
-        font-size: 22px;      
-        font-weight: 500;    
-        color:hsl(228, 12%, 48%);           
-        margin:0 0 30px 0;        
-        text-transform: uppercase; 
-        letter-spacing: 2px;    
-    }
-h1{
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
     font-family: 'fraunces';
-    font-size: 70px;
-    padding: 0 ;
-    line-height:65px;
-    margin:0 150px 0 0;
+    font-size: 59px;
+    padding-right: 15px;
+    line-height: 55px;
+    margin: 10px 0;
+    /* margin: 0 150px 0 0; */
     font-weight: 700;
     color: hsl(212, 21%, 14%)
 }
- #image{
+
+#image {
     width: 50px;
 }
 
-p{
+p {
     font-family: 'montserrat', sans-serif;
     font-weight: 500;
-    font-size: 25px;
-    padding:0 170px 0 0;
-    line-height: 35px;
-    color:hsl(228, 12%, 48%)
+    font-size: 20px;
+    /* padding: 0 170px 0 0; */
+    padding-right: 15px;
+    line-height: 28px;
+    color: hsl(228, 12%, 48%)
 }
 
 .price-container {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-        }
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
-     .current-price {
-            font-family: 'Fraunces', serif;
-            font-size: 4rem;
-            font-weight: 700;
-            color: hsl(158, 36%, 37%);
-            
-        }
-    .original-price {
-            color: hsl(228, 12%, 48%);
-            text-decoration: line-through;
-            font-size: 2rem;
-            font-weight: 400;
-            font-family: 'montserrat';
-        }
+.current-price {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
 
-button{
-    background-color:hsl(158, 42%, 28%);
+}
+
+.original-price {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'montserrat';
+}
+
+button {
+    background-color: hsl(158, 42%, 28%);
     justify-content: center;
     align-items: center;
-    margin: 30px 0 20px 0;
+    margin: 30px 0 0;
     width: 70%;
+
     height: 70px;
     border-radius: 10px;
     color: white;
     font-family: 'montserrat';
     font-weight: 500;
+
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 20px;
     text-transform: capitalize;
     font-family: 'montserrat';
     display: flex;
-    
 
-} 
+
+}
 
 button:hover {
-        background-color: hsl(158, 42%, 18%)
+    background-color: hsl(158, 42%, 18%)
 }
-button:active{
-    background-color:aquamarine
+
+button:active {
+    background-color: aquamarine
 }
-svg{
+
+svg {
     margin-right: 10px;
-   
+
 }
 }

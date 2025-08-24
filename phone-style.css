@@ -1,23 +1,67 @@
-/* ...existing code... */
 
 @media (max-width: 375px) {
     body {
         flex-direction: column;
         padding: 1rem;
-        font-size :14px;
+    }   
+        
+     p {
+        font-size:14px;
+     }   
     }
+
     .perfume {
         width: 100%;
         margin: 0;
         box-sizing: border-box;
     }
+
     #image {
         width: 100%;
         max-width: 375px;
     }
-    /* Add more responsive styles as needed */
+    
+
+h4{
+    font-weight: lighter ;
+    text-transform: uppercase;
+    color:Grey hsl(228, 12%, 48%) ; 
+    font-family: 'Fraunces', serif;
 }
 
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
 
+.perfume{
+    background-color: white;
+}
 
-/* ...existing code... */
+ #image{
+    width: 50px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 1.5rem;
+    }
+
+     .current-price {
+            font-family: 'Fraunces', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: hsl(158, 36%, 37%);
+        }
+            .original-price {
+            color: hsl(228, 12%, 48%);
+            text-decoration: line-through;
+            font-size: 0.8rem;
+        }
+
+button{
+    background-color:Green hsl(158, 42%, 18%) ;
+} 
